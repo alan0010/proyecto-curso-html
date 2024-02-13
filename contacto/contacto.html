@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/favicon/arq.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simulation</title>
+  </head>
+  <body>
+    <header>
+    <h1>Enslaving Humanity...Knock, Knock. </h1>
+    <nav>
+      <ul>
+        <li><a href="/home/index.html">Home</a></li>
+        <li><a href="/matrix/matrix.html">Matrix</a></li>
+        <li><a href="/audiovisuales/audiovisuales.html">Audiovisuales</a></li>
+        <li><a class="active" href="/contacto/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    </header>
+    <h2>He estado esperandote</h2>
+    <hr>
+    <div class="contenedor-formulario">
+      <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribi aqui tu nombre" required minlength="3">
+        <label for="nombre">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribi aqui tu apellido" required minlength="3">
+        <label for="nombre">Email</label>
+        <input type="email" id="mail" name="mail" placeholder="Escribi aqui tu mail" required>
+        <label for="pais">Pais:</label>
+        <select name="pais" id="pais">
+          <option value="Argentina">Argentina</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Venezuela">Venezuela</option>
+          <option value="Peru">Peru</option>
+          <option value="Bolivia">Bolivia</option>
+          <option value="Ecuador">Ecuador</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Chile">Chile</option>
+        </select>
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario" id="comentario" placeholder="Escribri aqui tu comentario"></textarea>
+
+        <label for="motivo">Motivo de contacto</label>
+        <input type="radio" name="motivo" id="motivo"><i>Fan de la pelicula</i>
+        <input type="radio" name="motivo" id="motivo"><i>Despertar</i>
+        <input type="radio" name="motivo" id="motivo"><i>Tomar una pildora con morfeo</i>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+    <footer class="footer">
+    <p>Derechos reservados &copy; 2024</p>
+    </footer>
+  </body>
+</html>
